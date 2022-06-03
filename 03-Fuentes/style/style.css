@@ -1,0 +1,37 @@
+@font-face {
+    font-family: MonserratFuenteCustom;
+    src: url(/fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+h1{
+    font-family: 'Mansalva', cursive;
+    font-style: oblique;
+    text-transform: uppercase;
+    font-size: 25px;
+    /*Colores */
+
+    /*Colores del Sistema*/
+    color: mediumpurple;
+    /*Colores hexadecimales*/
+    color: #e55a5a;
+    /*Colores RGB*/
+    color:  rgb(255, 255, 107);
+    /*Colores RGBA*/
+    color: rgba(200, 150, 250 , 0.5);
+}
+h3{
+    font-family:  MonserratFuenteCustom ,'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: lighter;
+    color: olivedrab;
+
+}
+p{
+    font-family:sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}

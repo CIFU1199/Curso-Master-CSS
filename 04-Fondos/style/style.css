@@ -1,0 +1,39 @@
+body{
+    background-color:#ccc;
+    background-image: url(/img/patron2.jpg);
+    /*background-repeat: no-repeat;*/
+    /*background-size: 100% 100%;*/
+    background-attachment: fixed;
+    background-position: left bottom;
+    text-align: justify;
+
+}
+
+#caja{
+    border: 5px solid black;
+    padding: 10px;
+    background-color: lightcoral;
+    color: aliceblue;
+    font-family: monospace;
+    text-align: center;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+h2{
+    background-color: white;
+    border: 5px solid black;
+    padding: 10px;
+    font-family:sans-serif ;
+    text-align: center;
+}
+
+p{
+    border:5px solid black;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgba( 239, 239, 239 , 0.9);
+    font-family: monospace;
+    font-size: 20px;
+}

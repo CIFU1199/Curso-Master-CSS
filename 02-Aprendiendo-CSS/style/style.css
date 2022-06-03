@@ -1,0 +1,106 @@
+/*
+Selectores
+
+*/
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Selector de etiqueta*/
+h1{
+    background: lightcoral;
+    color: white;
+    padding: 10px;
+}
+
+a{
+    font-size: 18px;
+    color: lightcoral;
+    text-decoration: none;
+}
+
+footer a{
+    color: lightcoral;
+}
+/*Selector de id*/
+
+#descripcion{
+    border: 5px solid lightcoral;
+    padding: 15px;
+}
+
+#Titulo{
+    background: lightblue;
+    border: 2px dashed whitesmoke;
+}
+/*Selector de clase*/
+.title{
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.parrafo{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.parrafo1{
+    background-color: lightblue;
+    color: whitesmoke;
+    padding: 15px;
+}
+
+.parrafo2{
+    background-color: lightgreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: whitesmoke;
+    padding: 15px;
+}
+/*Selector de atributo*/
+
+#usuario form{
+    border: 5px solid violet;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+#usuario form *{
+    display: block;
+}
+
+input[type="text"]{
+    margin-bottom: 15px;
+    margin-top: 2px;
+    padding: 5px;
+    width: 200px;
+}
+
+input[type="submit"]{
+    border-radius: 10px;
+    background-color: lightskyblue;
+    font-family: monospace;
+    width: 200px;
+    height: 50px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/*Selectores hijos*/
+#menu > li > a{
+    font-size: 18px;
+    color: lightseagreen;
+    text-decoration: none;
+}
+
+/*Prioridad*/
+#saludo h1{
+    background: lightcoral;
+}
+
+h1{
+    background: purple ;
+}
