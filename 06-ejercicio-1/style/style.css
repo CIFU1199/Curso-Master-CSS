@@ -78,36 +78,53 @@ cursor: pointer;
 #content{
     width: 69%;
     float: left;
+    
 }
 
 #lateral{
     float: left;
-    width: 30%;
+    width: 28%;
     border: 1px solid lightcoral;
     min-height: 500px;
+    max-height: 650px;
+    text-align: justify;
+    overflow-y: scroll;
+    padding: 15px;
 
 }
 
-#contenido h1{
+#content h1{
     text-align: center;
     border-bottom: 1px solid #ccc;
     padding: 15px;
     color: #444;
-    
+    text-shadow: 1px 2px 5px black;
 }
 
 
 #content .box{
+
     width: 40%;
     height: 250px;
     background-color: lightcoral;
-    border: 5px solid lightblue;
+    border: 2px solid lightblue;
     color: white;
     float: left;
     margin: 20px;
     text-align: center;
+    line-height: 200px;
     margin-left: 40px;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 15px gray;
+    color: #444;
+    font-weight: bold;
+    border-radius: 50px 20px 20px 10px  ;
 }
+
+.sombra-interior{
+    box-shadow: 5px 5px 10px gray inset !important;
+}
+
 
 #footer{
     width: 100%;
@@ -120,3 +137,38 @@ cursor: pointer;
     
 }
 
+.libre{
+    position: absolute;
+    top: 300px;
+    right: 40%;
+    border: 1px solid #444;
+    background-color: lightcoral;
+    color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 14px;
+}
+
+.libre1{
+    
+    z-index: 2;
+}
+
+.libre2{
+    background-color: aquamarine;
+    top: 280px;
+    right: 40%;
+    z-index: 1;
+}
+
+.fija{
+    position: fixed;
+    top: 50%;
+    left: 0px;
+    border: 1px solid #444;
+    background-color: lightblue;
+    color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 14px;
+}
