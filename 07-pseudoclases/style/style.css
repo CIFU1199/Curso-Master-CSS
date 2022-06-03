@@ -1,0 +1,55 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li{
+    font-size: 20px;
+}
+
+ul li:first-child{
+    color: blueviolet;
+    font-weight: bold;
+} 
+
+ul li:nth-child(2){
+    color: yellowgreen;
+    font-weight: bold;
+} 
+
+ul li:last-child{
+    color: gray;
+    font-weight: bold;
+} 
+
+
+#mi-enlace{
+    font-size: 30px;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+#mi-enlace:link{
+    color: violet;
+}
+
+#mi-enlace:visited{
+    color: blue;
+}
+
+#mi-enlace:hover{
+    color: red;
+}
+
+#mi-enlace:active{
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input[type="text"]{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+input[type="text"]:focus{
+    border: 4px dashed rebeccapurple;
+}
